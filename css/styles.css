@@ -83,6 +83,10 @@ p {
   right: 30%;
 }
 
+.title-logo {
+  display: none;
+}
+
 /* Features Section */
 #features {
   position: relative;
@@ -157,13 +161,29 @@ p {
   margin: 20px 10px;
 }
 
-@media (max-width: 1028px) {
+@media (max-width: 1200px) {
   #title {
     text-align: center;
   }
 
   .title-image {
-    position: static;
-    transform: rotate(0);
+    display: none;
   }
+
+  .title-logo {
+    display: block;
+  }
+
+  .member-andrew {
+    order: 2;
+  }
+
+  .member-hanif {
+    order: 1;
+  }
+
+  .member-enming {
+    order: 3;
+  }
+
 }
